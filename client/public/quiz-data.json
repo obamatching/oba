@@ -1,0 +1,389 @@
+{
+  "quiz": {
+    "title": "あなたにピッタリの出会い系サイト診断",
+    "description": "5つの質問に答えるだけで、あなたに最適なサイトが見つかります",
+    "questions": [
+      {
+        "id": 1,
+        "question": "あなたの年代を教えてください",
+        "type": "single",
+        "options": [
+          {
+            "id": "age_30s",
+            "text": "30代",
+            "score": {
+              "ikukuru": 3,
+              "pcmax": 3,
+              "happymail": 3,
+              "cuddle": 2,
+              "healmate": 2
+            }
+          },
+          {
+            "id": "age_40s",
+            "text": "40代",
+            "score": {
+              "pcmax": 3,
+              "happymail": 3,
+              "healmate": 3,
+              "afternoon": 2,
+              "kikonclub": 2
+            }
+          },
+          {
+            "id": "age_50s",
+            "text": "50代以上",
+            "score": {
+              "pcmax": 3,
+              "afternoon": 3,
+              "sepa": 2,
+              "kikonclub": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "正直、どんな関係を求めていますか？",
+        "type": "single",
+        "options": [
+          {
+            "id": "physical",
+            "text": "体の関係メインで気軽に",
+            "score": {
+              "pcmax": 4,
+              "ikukuru": 4,
+              "happymail": 3
+            }
+          },
+          {
+            "id": "both",
+            "text": "心も体も満たされたい",
+            "score": {
+              "happymail": 3,
+              "healmate": 3,
+              "cuddle": 3
+            }
+          },
+          {
+            "id": "emotional",
+            "text": "まずは心の繋がりから",
+            "score": {
+              "healmate": 4,
+              "anemone": 3,
+              "afternoon": 2
+            }
+          },
+          {
+            "id": "casual",
+            "text": "食事や遊び相手が欲しい",
+            "score": {
+              "cuddle": 3,
+              "marriedgo": 3,
+              "ikukuru": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "理想的な出会いまでのスピードは？",
+        "type": "single",
+        "options": [
+          {
+            "id": "today",
+            "text": "今日・明日中に会いたい",
+            "score": {
+              "ikukuru": 4,
+              "pcmax": 4,
+              "happymail": 2
+            }
+          },
+          {
+            "id": "week",
+            "text": "1週間以内に会いたい",
+            "score": {
+              "pcmax": 3,
+              "happymail": 3,
+              "cuddle": 3
+            }
+          },
+          {
+            "id": "month",
+            "text": "1ヶ月くらいかけてじっくり",
+            "score": {
+              "healmate": 3,
+              "cuddle": 2,
+              "anemone": 2
+            }
+          },
+          {
+            "id": "slow",
+            "text": "焦らずゆっくり関係を築きたい",
+            "score": {
+              "healmate": 4,
+              "anemone": 3,
+              "afternoon": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "相手に求める条件で最も重要なのは？",
+        "type": "single",
+        "options": [
+          {
+            "id": "looks",
+            "text": "見た目・スタイルの良さ",
+            "score": {
+              "pcmax": 3,
+              "ikukuru": 3,
+              "happymail": 3
+            }
+          },
+          {
+            "id": "personality",
+            "text": "性格の相性・話の合いやすさ",
+            "score": {
+              "healmate": 3,
+              "cuddle": 3,
+              "marriedgo": 2
+            }
+          },
+          {
+            "id": "discretion",
+            "text": "秘密を守れる信頼性",
+            "score": {
+              "kikonclub": 4,
+              "healmate": 3,
+              "meet": 2
+            }
+          },
+          {
+            "id": "availability",
+            "text": "すぐ会える距離・時間の都合",
+            "score": {
+              "ikukuru": 4,
+              "pcmax": 3,
+              "cuddle": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "出会い系サイトの利用経験は？",
+        "type": "single",
+        "options": [
+          {
+            "id": "first",
+            "text": "初めて使う",
+            "score": {
+              "happymail": 3,
+              "cuddle": 3,
+              "healmate": 2
+            }
+          },
+          {
+            "id": "few",
+            "text": "何度か使ったことがある",
+            "score": {
+              "pcmax": 3,
+              "ikukuru": 3,
+              "happymail": 2
+            }
+          },
+          {
+            "id": "experienced",
+            "text": "かなり使い慣れている",
+            "score": {
+              "pcmax": 4,
+              "ikukuru": 3,
+              "sepa": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "sites": {
+    "ikukuru": {
+      "name": "イククル",
+      "tagline": "会員数1,500万人超！すぐ会える出会い系",
+      "averageDays": 8,
+      "psychologyInsight": "即効性を求めるあなたの脳は「報酬系」が活発なタイプ。イククルの掲示板機能は、この報酬系を刺激し、スピーディーな出会いを実現します。",
+      "features": [
+        "今日会える相手が平均127人オンライン中",
+        "掲示板への書き込みが無料で即募集可能",
+        "あなたの地域で今週マッチング成功率83%",
+        "メッセージ返信率が他サイトの2.3倍"
+      ],
+      "hiddenBenefit": "プロフィール閲覧数が平均3.7倍",
+      "targetAge": "30〜50代",
+      "affiliateUrl": "https://example.com/ikukuru",
+      "color": "#FF6B9D"
+    },
+    "pcmax": {
+      "name": "PCMAX（ピシマ）",
+      "tagline": "アクティブ会員が多い老舗出会い系",
+      "averageDays": 12,
+      "psychologyInsight": "目的志向型のあなたは「達成動機」が強いタイプ。PCMAXのアダルト掲示板は、明確な目的を持つ相手と効率的にマッチングできます。",
+      "features": [
+        "同じ目的の相手が今日だけで289人投稿",
+        "セフレ作り成功率が業界トップクラス",
+        "あなたのタイプの会員が今週1,247人アクティブ",
+        "マッチング後の実際に会える確率74%"
+      ],
+      "hiddenBenefit": "初回メッセージ返信率68%",
+      "targetAge": "30〜50代",
+      "affiliateUrl": "https://example.com/pcmax",
+      "color": "#E74C3C"
+    },
+    "happymail": {
+      "name": "ハッピーメール",
+      "tagline": "累計会員数3,500万人の国内最大級",
+      "averageDays": 15,
+      "psychologyInsight": "選択肢の多さを重視するあなたは「探索型」の思考パターン。ハッピーメールの圧倒的な会員数は、理想の相手との出会いの確率を最大化します。",
+      "features": [
+        "あなたの希望条件に合う相手が3,892人",
+        "毎日1,500人以上の新規登録で出会いが尽きない",
+        "プロフィール閲覧無料でコスパ最強",
+        "20年の実績で安全性・信頼性No.1"
+      ],
+      "hiddenBenefit": "マッチング数が他サイトの4.2倍",
+      "targetAge": "30〜50代",
+      "affiliateUrl": "https://example.com/happymail",
+      "color": "#FF69B4"
+    },
+    "cuddle": {
+      "name": "カドル(Cuddle)",
+      "tagline": "AIがあなたにピッタリの相手を見つけます",
+      "averageDays": 18,
+      "psychologyInsight": "効率と相性を重視するあなたは「最適化思考」の持ち主。カドルのAIマッチングは、心理学的相性スコアで理想の相手を自動で見つけ出します。",
+      "features": [
+        "AI分析であなたとの相性度92%以上の相手を厳選",
+        "同じ趣味・価値観の既婚者が847人マッチング待ち",
+        "スワイプ操作で1日平均23人とマッチング可能",
+        "メッセージ継続率が通常の3.1倍"
+      ],
+      "hiddenBenefit": "デート成約率81%",
+      "targetAge": "30〜40代",
+      "affiliateUrl": "https://example.com/cuddle",
+      "color": "#FF6B6B"
+    },
+    "healmate": {
+      "name": "ヒールメイト(Healmate)",
+      "tagline": "真剣な既婚者向けパートナー探し",
+      "averageDays": 23,
+      "psychologyInsight": "深い繋がりを求めるあなたは「愛着安定型」。ヒールメイトの真剣な会員層は、長期的で安定した関係を築きたいあなたの心理的ニーズを満たします。",
+      "features": [
+        "真剣交際希望の会員が95%で遊び目的なし",
+        "あなたと同じ悩みを持つ既婚者が1,234人",
+        "詳細条件検索で理想の相手に最短でアプローチ",
+        "関係継続率が6ヶ月以上で89%"
+      ],
+      "hiddenBenefit": "プライバシー保護機能で身バレリスク0.3%",
+      "targetAge": "30〜50代",
+      "affiliateUrl": "https://example.com/healmate",
+      "color": "#4ECDC4"
+    },
+    "marriedgo": {
+      "name": "MarriedGo(マリーゴー)",
+      "tagline": "趣味で繋がる既婚者マッチング",
+      "averageDays": 21,
+      "psychologyInsight": "共通点から関係を築くあなたは「類似性の法則」を重視するタイプ。趣味タグ機能は、自然な会話のきっかけを作り、警戒心を下げて親密度を高めます。",
+      "features": [
+        "あなたと同じ趣味の既婚者が567人",
+        "趣味から始まる自然な出会いで成功率UP",
+        "ライバルが少なく人気会員とも繋がりやすい",
+        "会話継続率が初回から78%"
+      ],
+      "hiddenBenefit": "コスパ最強で月額4,980円から",
+      "targetAge": "30〜40代",
+      "affiliateUrl": "https://example.com/marriedgo",
+      "color": "#FFD93D"
+    },
+    "meet": {
+      "name": "Meet(ミート)",
+      "tagline": "シンプルで使いやすい既婚者向けサービス",
+      "averageDays": 26,
+      "psychologyInsight": "シンプルさを好むあなたは「認知負荷の低減」を求めるタイプ。Meetの直感的なUIは、ストレスなく出会いに集中できる環境を提供します。",
+      "features": [
+        "写真メインで直感的に好みの相手を探せる",
+        "会員数が少なく知り合いにバレる確率が極小",
+        "シンプル機能で迷わず使える",
+        "業界実績No.1運営で安心感"
+      ],
+      "hiddenBenefit": "身バレ防止率99.2%",
+      "targetAge": "30〜50代",
+      "affiliateUrl": "https://example.com/meet",
+      "color": "#95E1D3"
+    },
+    "anemone": {
+      "name": "アネモネ",
+      "tagline": "心で繋がるマリッドフレンド",
+      "averageDays": 28,
+      "psychologyInsight": "精神的な繋がりを重視するあなたは「内発的動機」が強いタイプ。アネモネのプラトニック志向は、心の充足を最優先するあなたの価値観と完全一致します。",
+      "features": [
+        "プラトニック希望の真剣会員が92%",
+        "詳細検索で価値観の合う相手を厳選",
+        "空いている日でマッチングし即デート可能",
+        "関係満足度が3ヶ月後で94%"
+      ],
+      "hiddenBenefit": "月額6,980円のコスパで長期利用に最適",
+      "targetAge": "30〜50代",
+      "affiliateUrl": "https://example.com/anemone",
+      "color": "#A8E6CF"
+    },
+    "kikonclub": {
+      "name": "既婚者クラブ",
+      "tagline": "実績と信頼の定番既婚者サービス",
+      "averageDays": 19,
+      "psychologyInsight": "安全性と実績を重視するあなたは「リスク回避型」。既婚者クラブの長年の運営実績と徹底した身バレ対策は、安心して出会いを楽しめる環境を保証します。",
+      "features": [
+        "75万人の会員数で地方でも確実に出会える",
+        "写真自動ぼかし機能で身バレリスク最小",
+        "同世代の既婚者が多く話が合いやすい",
+        "運営歴15年以上の信頼と実績"
+      ],
+      "hiddenBenefit": "地方会員数が他サイトの2.8倍",
+      "targetAge": "40〜60代",
+      "affiliateUrl": "https://example.com/kikonclub",
+      "color": "#C7CEEA"
+    },
+    "afternoon": {
+      "name": "afternoon.(アフターヌーン)",
+      "tagline": "大人の雑談と出会いの場",
+      "averageDays": 32,
+      "psychologyInsight": "段階的な関係構築を好むあなたは「漸進的親密化」を重視するタイプ。掲示板での雑談から始まる自然な流れは、警戒心を解き、深い信頼関係を築きます。",
+      "features": [
+        "掲示板で雑談しながら自然に仲良くなれる",
+        "40〜50代の落ち着いた大人が中心",
+        "友達から始めて関係を深められる",
+        "真剣な人が多く安心して利用可能"
+      ],
+      "hiddenBenefit": "関係継続率が1年以上で76%",
+      "targetAge": "40〜50代",
+      "affiliateUrl": "https://example.com/afternoon",
+      "color": "#FFDAC1"
+    },
+    "sepa": {
+      "name": "Sepa(セパ)",
+      "tagline": "マッチング不要で即アプローチ",
+      "averageDays": 16,
+      "psychologyInsight": "積極性と効率を重視するあなたは「行動志向型」。Sepaのマッチング不要システムは、待ち時間ゼロで気になる相手に即アプローチできる環境を提供します。",
+      "features": [
+        "いいね不要で今すぐメッセージ送信可能",
+        "ライバルが少なく返信率が高い",
+        "厳重な本人確認で安全性が高い",
+        "月額4,980円の低価格"
+      ],
+      "hiddenBenefit": "初回メッセージ返信率が通常の1.9倍",
+      "targetAge": "40〜60代",
+      "affiliateUrl": "https://example.com/sepa",
+      "color": "#B4A7D6"
+    }
+  }
+}
+
